@@ -10,7 +10,7 @@ arrange(flights, desc(is.na(dep_time)))
 arrange(flights, desc(dep_delay))
 arrange(flights, dep_delay)
 
-#5.3.1.3 Sort flights to find the fastest flights
+#5.3.1.3 Sort flights to find the fastest flights.
 arrange(flights, air_time)
 
 #5.3.1.4 Which flights traveled the longest? Which traveled the shortest?
