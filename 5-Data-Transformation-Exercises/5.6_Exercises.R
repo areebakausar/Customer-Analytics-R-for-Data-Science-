@@ -3,8 +3,8 @@ library(nycflights13)
 
 #5.6.7 Exercises
 
-not_cancelled <- flights %>% 
-  filter(!is.na(dep_delay), !is.na(arr_delay))
+view (not_cancelled <- flights %>% 
+  filter(!is.na(dep_delay), !is.na(arr_delay)))
 
 #5.6.7.1 Brainstorm at least 5 different ways to assess the typical delay characteristics of a group of flights. Consider the following scenarios:
 
@@ -67,5 +67,4 @@ flights %>%
 
 #5.6.7.5 Which carrier has the worst delays? Challenge: can you disentangle the effects of bad airports vs. bad carriers? Why/why not? (Hint: think about flights %>% group_by(carrier, dest) %>% summarise(n()))
 
-view(not_cancelled)
 
